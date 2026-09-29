@@ -51,18 +51,18 @@ def display_year_breakdown(year: int) -> None:
 
 
 def main():
-    print("👋 Welcome to the Year & Time Explorer!")
+    print(" Welcome to the Year & Time Explorer!")
     print("Enter any year (e.g., 2024, 2025, 2000) or type 'exit' to quit.\n")
 
     while True:
         user_input = input("Enter a year: ").strip()
 
         if user_input.lower() in ("exit", "quit", "q"):
-            print("Thanks for stopping by! Have a wonderful day! 👋")
+            print("Thanks for stopping by! Have a wonderful day! ")
             break
 
         if not user_input.isdigit() or int(user_input) <= 0:
-            print("⚠️  Please enter a valid positive whole number for the year.\n")
+            print("  Please enter a valid positive whole number for the year.\n")
             continue
 
         year = int(user_input)
