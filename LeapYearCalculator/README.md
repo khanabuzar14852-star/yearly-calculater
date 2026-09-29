@@ -1,10 +1,10 @@
-# 📅 Leap Year & Time Breakdown Utility
+#  Leap Year & Time Breakdown Utility
 
 A friendly, humanized Python command-line utility to determine whether a given year is a leap year and calculate its total time breakdown into days, hours, minutes, and seconds.
 
 ---
 
-## ✨ Features
+##  Features
 
 - **Accurate Leap Year Logic:** Implements the official Gregorian calendar rules (handling divisible by 4, century non-leap years, and 400-year exceptions).
 - **Human-Friendly Explanations:** Explains *why* a year is or isn't a leap year in plain language.
@@ -18,7 +18,7 @@ A friendly, humanized Python command-line utility to determine whether a given y
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```text
 LeapYearCalculator/
@@ -35,7 +35,7 @@ LeapYearCalculator/
 
 ---
 
-## 🚀 How to Run
+##  How to Run
 
 1. Open your terminal (PowerShell, Command Prompt, or Terminal).
 2. Navigate to the folder where the files are located:
@@ -50,10 +50,10 @@ LeapYearCalculator/
 
 ---
 
-## 🖥️ Sample Run & Output
+##  Sample Run & Output
 
 ```text
-👋 Welcome to the Year & Time Explorer!
+ Welcome to the Year & Time Explorer!
 Enter any year (e.g., 2024, 2025, 2000) or type 'exit' to quit.
 
 Enter a year: 2024
@@ -61,7 +61,7 @@ Enter a year: 2024
 ==================================================
        Year Breakdown for: 2024
 ==================================================
-• Verdict: 2024 is a LEAP YEAR 🎉
+• Verdict: 2024 is a LEAP YEAR 
 • Reason:  2024 is divisible by 4 and not a century year.
 --------------------------------------------------
 Time Summary:
@@ -76,7 +76,7 @@ Enter a year: 2025
 ==================================================
        Year Breakdown for: 2025
 ==================================================
-• Verdict: 2025 is NOT a leap year (regular year) 📅
+• Verdict: 2025 is NOT a leap year (regular year) 
 • Reason:  2025 is not divisible by 4.
 --------------------------------------------------
 Time Summary:
@@ -89,6 +89,6 @@ Time Summary:
 
 ---
 
-## 📖 Further Reading
+##  Further Reading
 
 For a deeper dive into the origin, mathematical theory, and structural implementation of this project, read [STATEMENT.md](STATEMENT.md).
