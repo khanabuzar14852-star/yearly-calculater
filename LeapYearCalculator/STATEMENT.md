@@ -1,16 +1,16 @@
-# 📜 Project Statement: Leap Year & Time Calculator
+#  Project Statement: Leap Year & Time Calculator
 
 ---
 
 ## 1. What is the Use of This Utility?
 
-### 📌 Core Purpose
+###  Core Purpose
 The primary purpose of this utility is to provide an accurate, user-friendly tool that:
 1. **Determines Leap Year Status:** Confirms whether any given calendar year is a leap year (366 days) or a common year (365 days).
 2. **Explains the Scientific Reasoning:** Rather than simply returning `True` or `False`, it explains *why* according to Gregorian calendar rules.
 3. **Converts Years into Granular Time Units:** Calculates the exact number of days, hours, minutes, and seconds that make up that specific year.
 
-### 🌍 Real-World Applications & Use Cases
+###  Real-World Applications & Use Cases
 - **Educational Learning:** Helps students and developers understand calendar arithmetic, modular math (`%`), and why the calendar requires periodic correction.
 - **Software Engineering & Date Handling:** Prevents date calculation bugs (such as the infamous "leap year bug" where code fails on February 29th).
 - **Financial & Payroll Systems:** Accurate yearly interest calculations, bond yields, daily interest accrual, and hourly wage models depend on knowing if a financial period contains 365 or 366 days.
@@ -46,7 +46,7 @@ def is_leap_year(year: int) -> tuple[bool, str]:
 
 ---
 
-### ⏱️ 2. Time Conversion Mathematics
+###  2. Time Conversion Mathematics
 Once the number of days is determined (366 for a leap year, 365 for a common year), subsequent time units are derived using constant multipliers:
 
 $$\text{Hours} = \text{Days} \times 24$$
@@ -63,7 +63,7 @@ $$\text{Seconds} = \text{Minutes} \times 60 = \text{Days} \times 86,400$$
 
 ---
 
-### 🎨 3. Humanized Formatting & User Experience (UX)
+###  3. Humanized Formatting & User Experience (UX)
 To make the tool friendly and intuitive:
 - **Comma Grouping (`{value:,}`):** Numbers like `31622400` are rendered as `31,622,400` for effortless reading.
 - **Natural Language Verdicts:** Includes clear descriptions, emoji badges, and visual separator lines.
